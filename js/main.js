@@ -14,12 +14,18 @@ $(document).ready(function(){
                 console.log(data);
 
                 result = `
-                
-                <img style="float: left;" src="${data.Poster}"/>
-                <h1 style="float: left;" class="ml-2">${data.Title} (${data.Year})</h1>
-                <p style="float: left;"class="ml-2">${data.Genre}</p>
-                <p style="float: left;"class="ml-2">${data.Plot}</p>
-                `;
+                <img class="poster" src="${data.Poster}" height="444px" width="300px">
+                <h1 class="title">${data.Title}</h1>
+                <p class="genre-year">(${data.Year}) | ${data.Genre} | ${data.Runtime}</p>
+                <br>
+                <p class="plot">${data.Plot}</p>
+                <br>
+                <span class="stars"><span>Stars &mdash;</span> ${data.Actors}</span> <br>
+                <span class="writers"><span>Writers &mdash;</span> ${data.Writer}</span> <br>
+                <span class="director"><span>Director &mdash;</span> ${data.Director} </span> <br>
+                <!-- <a class="imdb-link"><img src="/img/imdb.jpg" height="40px"></a>  -->
+                `
+                ;
 
                 $("#result").html(result);
             }

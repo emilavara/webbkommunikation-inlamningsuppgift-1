@@ -3,6 +3,10 @@ body {
     font-family: circular-bold;
 }
 
+h1 {
+    color: white;
+}
+
 .search-form {
     width: 1000px;
     height: 50px;;
@@ -20,75 +24,70 @@ body {
     padding-left: 10px;
 }
 
-h1 {
-    color: white;
-}
-
-
 #result {
-    width: 1000px;
-    height: 500px;
-    /* background: rgba(0, 0, 255, 0.10); */
-    padding-left: 100px;
+
 }
 
-#result h1,img {
-    float: left;
-}
-
-#result h1{
-    margin-left: 20px;
+.title {
+    position: relative;
+    left: 10px;
     color: #e38f0e;
 }
 
-.title p {
-    color: #606060;
-    font-size: 16pt;
+.poster {
+    float: left;
+}
+
+.genre-year {
+    color: #808080;
     position: relative;
-    top: 11px;
     left: 10px;
 }
 
-.genre {
-    float: left;
-    color: #606060;
-    position: relative;
-    top: -10px;
-    left: 23px;
-}
 
 .plot {
-    float: left;
-    color: white;
-    width: 500px;
     font-size: 16pt;
+    color: white;
+    width: 750px;
     position: relative;
-    left: 23px;
+    left: 10px;
 }
 
 .stars {
-    float: left;
-    color: #606060;
+    color: #e38f0e;
     position: relative;
-    top: -10px;
-    left: 23px;
+    left: 10px;
 }
 
-.directors {
-    float: left;
+.stars span {
     color: #606060;
-    position: relative;
-    top: -10px;
-    left: 23px;
+    font-size: 14pt;
 }
 
 .writers {
-    float: left;
-    color: #606060;
+    color:  #e38f0e;
     position: relative;
-    top: -10px;
-    left: 23px;
+    left: 10px;
 }
+
+.writers span {
+    color: #606060;
+    font-size: 14pt;
+}
+
+.director {
+    color:  #e38f0e;
+    position: relative;
+    left: 10px;
+}   
+
+.director span {
+    color: #606060;
+    font-size: 14pt;
+}
+
+
+
 
 
 @font-face {
