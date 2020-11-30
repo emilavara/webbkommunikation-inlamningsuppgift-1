@@ -1,6 +1,4 @@
 $(document).ready(function(){
-    var apikey = "478c334c"
-
     $("#movieForm").submit(function(event){
         event.preventDefault();
         var result = "";
