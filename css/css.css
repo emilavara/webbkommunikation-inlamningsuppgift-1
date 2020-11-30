@@ -30,7 +30,7 @@ h1 {
 
 .title {
     position: relative;
-    left: 10px;
+    left: 20px;
     color: #e38f0e;
 }
 
@@ -41,7 +41,7 @@ h1 {
 .genre-year {
     color: #808080;
     position: relative;
-    left: 10px;
+    left: 20px;
 }
 
 
@@ -50,13 +50,13 @@ h1 {
     color: white;
     width: 750px;
     position: relative;
-    left: 10px;
+    left: 20px;
 }
 
 .stars {
     color: #e38f0e;
     position: relative;
-    left: 10px;
+    left: 20px;
 }
 
 .stars span {
@@ -67,7 +67,7 @@ h1 {
 .writers {
     color:  #e38f0e;
     position: relative;
-    left: 10px;
+    left: 20px;
 }
 
 .writers span {
@@ -78,7 +78,7 @@ h1 {
 .director {
     color:  #e38f0e;
     position: relative;
-    left: 10px;
+    left: 20px;
 }   
 
 .director span {

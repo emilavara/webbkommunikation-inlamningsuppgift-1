@@ -2,9 +2,9 @@ $(document).ready(function(){
     var apikey = "478c334c"
 
     $("#movieForm").submit(function(event){
-        event.preventDefault()
+        event.preventDefault();
         var result = "";
-        var movie = $("#movie").val()
+        var movie = $("#movie").val();
         var url = "http://www.omdbapi.com/?apikey=478c334c";
 
         $.ajax({
