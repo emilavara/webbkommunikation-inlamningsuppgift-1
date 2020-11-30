@@ -3,7 +3,7 @@ $(document).ready(function(){
         event.preventDefault();
         var result = "";
         var movie = $("#movie").val();
-        var url = "http://www.omdbapi.com/?apikey=478c334c";
+        var url = "https://www.omdbapi.com/?apikey=478c334c";
 
         $.ajax({
             method:'GET',
